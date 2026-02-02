@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="todo-container">
+    <h1>My Tasks</h1>
+
+    <div class="todo-input">
+        <input id="taskInput" type="text" placeholder="Add a task">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList" class="task-list"></ul>
+
+    <a href="index.html">← Back to Home</a>
+</section>
+
+<script>
+function addTask() {
+    const input = document.getElementById("taskInput");
+    const list = document.getElementById("taskList");
+
+    if (input.value.trim() === "") return;
+
+    const li = document.createElement("li");
+    li.innerHTML = `
+        <span>${input.value}</span>
+        <button onclick="this.parentElement.remove()">❌</button>
+    `;
+
+    list.appendChild(li);
+    input.value = "";
+}
+</script>
+
+</body>
+</html>
+

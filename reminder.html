@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reminders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="page reminder-page">
+    <h1>Reminders</h1>
+    <p class="subtitle">Schedule tasks so you never forget.</p>
+
+    <div class="reminder-form">
+        <input type="text" id="reminderText" placeholder="Reminder title">
+        <input type="datetime-local" id="reminderTime">
+        <button onclick="addReminder()">Add Reminder</button>
+    </div>
+
+    <ul id="reminderList" class="reminder-list"></ul>
+
+    <a href="index.html" class="back-link">← Back to Home</a>
+</section>
+
+<script src="reminder.js"></script>
+</body>
+</html>
