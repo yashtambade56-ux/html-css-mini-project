@@ -5,7 +5,7 @@ The project focuses on building a clean and responsive welcome page with basic
 layout design and styling. It is deployed using GitHub Pages.
 
 ## Live Demo
-https://yashtambade56-ux.github.io/html-css-mini-project/welcome.html
+https://yashtambade56-ux.github.io/html-css-mini-project/index.html
 
 ## Project Preview
 ![Project Preview](preview.png)
