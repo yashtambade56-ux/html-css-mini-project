@@ -8,7 +8,7 @@ layout design and styling. It is deployed using GitHub Pages.
 https://yashtambade56-ux.github.io/html-css-mini-project/index.html
 
 ## Project Preview
-![Project Preview](preview.png)
+https://github.com/user-attachments/assets/04bf501b-0072-4c1a-b1b6-9fdf89ff2071https://github.com/user-attachments/assets/04bf501b-0072-4c1a-b1b6-9fdf89ff2071
 
 ## Technologies Used
 - HTML5
@@ -24,4 +24,4 @@ https://yashtambade56-ux.github.io/html-css-mini-project/index.html
 
 ## How to Run Locally
 1. Clone or download this repository
-2. Open `welcome.html` in any modern web browser
+2. Open `index.html` in any modern web browser
